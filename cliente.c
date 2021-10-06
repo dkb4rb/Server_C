@@ -13,6 +13,7 @@ int main(int argc, char **argv)
     if (argv[1] == NULL || argc < 2)
     {
         dprintf(STDERR_FILENO, "Usage: %s <IP> <PORT>\n", argv[0]);
+        printf("jkjsadjs");
         return (EXIT_FAILURE);
     }
 
